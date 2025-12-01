@@ -84,7 +84,7 @@
                                         <Insets left="40.0" right="50.0" top="20.0" />
                                     </HBox.margin>
                                 </Button>
-                                <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: #3dbdec;" text="Buscar">
+                                <Button mnemonicParsing="false" onAction="#onListPacinteClick" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: #3dbdec;" text="Buscar">
                                     <font>
                                         <Font size="14.0" />
                                     </font>
@@ -136,7 +136,7 @@
                         </GridPane>
                         <HBox prefHeight="85.0" prefWidth="374.0">
                             <children>
-                                <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: #3dbdec;" text="Atualizar">
+                                <Button mnemonicParsing="false" onAction="#onAtualizarPacienteClick" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: #3dbdec;" text="Atualizar">
                                     <font>
                                         <Font size="14.0" />
                                     </font>
@@ -144,7 +144,7 @@
                                         <Insets left="40.0" right="50.0" top="20.0" />
                                     </HBox.margin>
                                 </Button>
-                                <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: #3dbdec;" text="Excluir">
+                                <Button mnemonicParsing="false" onAction="#onExcluirPacienteClick" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: #3dbdec;" text="Excluir">
                                     <font>
                                         <Font size="14.0" />
                                     </font>
@@ -158,14 +158,13 @@
                 </VBox>
             </children>
         </HBox>
-        <TableView fx:id="tabelaPacientes" prefHeight="206.0" prefWidth="776.0">
+        <TableView fx:id="tabelaDados" prefHeight="206.0" prefWidth="776.0">
             <columns>
                 <TableColumn fx:id="colID" prefWidth="44.80001986026764" text="ID" />
-                <TableColumn fx:id="colNome" prefWidth="167.20006561279297" text="Nome" />
-                <TableColumn fx:id="colCpf" prefWidth="101.59991455078125" text="CPF" />
-                <TableColumn fx:id="colTelefone" prefWidth="164.0" text="Telefone" />
-                <TableColumn fx:id="colDataNascimento" prefWidth="120.00003051757812" text="Data de Nascimento" />
-                <TableColumn fx:id="colEmail" prefWidth="157.60003662109375" text="E-mail" />
+                <TableColumn fx:id="colNome" prefWidth="293.59996795654297" text="Nome" />
+                <TableColumn fx:id="colCpf" prefWidth="116.0" text="CPF" />
+                <TableColumn fx:id="colTelefone" prefWidth="138.40005493164062" text="Telefone" />
+                <TableColumn fx:id="colDataNascimento" prefWidth="162.4000244140625" text="Data de Nascimento" />
             </columns>
         </TableView>
     </children>

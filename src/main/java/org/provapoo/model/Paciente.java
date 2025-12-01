@@ -16,12 +16,10 @@ import java.time.LocalDate;
 @Data
 @Entity
 public class Paciente {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private int id;
     private String nome;
     private String cpf;
     private String telefone;
     private LocalDate dataNascimento;
-    private String email;
 }

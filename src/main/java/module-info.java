@@ -9,6 +9,7 @@ module org.provapoo {
     // 2. O FXML precisa **abrir** o pacote que contém a classe MainController
     //    para que ele possa injetar (reflexão) os campos @FXML privados.
     opens org.provapoo.controller to javafx.fxml;
+    opens org.provapoo.model to javafx.base;
 
     // Se você usa o pacote principal para Controllers ou FXMLs, abra-o também:
     // opens org.provapoo to javafx.fxml;
