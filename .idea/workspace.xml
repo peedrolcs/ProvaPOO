@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4433d86d-5e69-4536-8f3b-8ef0fe4568de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/provapoo/dao/PacienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/provapoo/utils/DBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/provapoo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/provapoo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/provapoo/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/provapoo/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/provapoo/model/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/provapoo/model/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/provapoo/utils/PathFXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/provapoo/utils/PathFXML.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/provapoo/view/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/provapoo/view/main-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
